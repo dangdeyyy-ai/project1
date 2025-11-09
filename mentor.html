@@ -16,7 +16,18 @@
 <body>
     <div class="header">
       <div class="container">
-        <img src="/assets/menu.png" class="menu-icon" />
+        <!-- <img src="/assets/menu.png" class="menu-icon" /> -->
+         <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="side-menu" id="sideMenu">
+          <a href="index.html" class="main menu mobile">Trang chủ</a>
+          <a href="about.html" class="about-us menu mobile">Giới thiệu</a>
+          <a href="mentor.html" class="mentor menu mobile">Mentor</a>
+        </div>
+        <div class="overlay" id="overLay"></div>
         <a href="index.html" class="header-logo">
           <div class="logo"></div>
           <div class="logo-text">
@@ -385,6 +396,6 @@
     </footer>
 
     <!-- end section2 -->
-     
+     <script src="/menu.js"></script>
 </body>
 </html>
