@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="booking.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <img src="../home-page/assets/menu.png" class="menu-icon" />
+        <a href="../home-page/index.html" class="header-logo">
+          <div class="logo"></div>
+          <div class="logo-text">
+            <div class="logo-big-text">Mentora</div>
+            <div class="logo-small-text">Đặt lịch trực tuyến</div>
+          </div>
+        </a>
+        <div class="header-menu">
+          <div class="menu-wrapper">
+            <a href="../home-page/index.html" class="main menu">Trang chủ</a>
+            <a href="../about-us-page/about.html" class="about-us menu"
+              >Giới thiệu</a
+            >
+            <a href="../mentor-page/mentor.html" class="mentor menu">Mentor</a>
+          </div>
+          <a href="../booking-page/booking.html" class="header-button"
+            >Đặt lịch</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="hero-section">
+      <div class="container">
+        <div class="hero-background">
+          <div class="hero-title">Đặt lịch</div>
+          <div class="hero-content">
+            <a href="../home-page/index.html" class="hero-text1">Trang chủ</a>
+            <div class="hero-arrow">></div>
+            <div class="hero-text2">Đặt lịch</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="booking-section">
+      <div class="container">
+        <div class="title">
+          <div class="title-big-text">Đặt lịch học</div>
+          <div class="title-small-text">
+            Hãy để lại thông tin đặt lịch đầy đủ sẽ được sắp xếp sớm, không phải
+            chờ đợi
+          </div>
+        </div>
+        <div class="form">
+          <div class="top-form">
+            <div class="left">
+              <div class="form-box">
+                <label for="name"
+                  >Tên khách <span class="red-text">*</span></label
+                >
+                <div class="form-box-text">
+                  <input
+                    class="form-text"
+                    type="text"
+                    required
+                    placeholder="Nhập tên của bạn"
+                  />
+                </div>
+              </div>
+              <div class="form-box">
+                <label for="name"
+                  >Số điện thoại <span class="red-text">*</span></label
+                >
+                <div class="form-box-text">
+                  <input
+                    class="form-text"
+                    type="text"
+                    required
+                    placeholder="0123 456 789"
+                  />
+                </div>
+              </div>
+              <div class="form-box">
+                <label for="name">Email <span class="red-text">*</span></label>
+                <div class="form-box-text">
+                  <input
+                    class="form-text"
+                    type="text"
+                    required
+                    placeholder="your@gmail.com"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="form-box">
+                <label for="name">Mentor <span class="red-text">*</span></label>
+                <div class="form-box-text">
+                  <select name="category" class="form-text">
+                    <option value="">Chọn mentor mong muốn</option>
+                    <option value="">Diệp Đình Hiếu</option>
+                    <option value="">Lý Anh Huy</option>
+                    <option value="">Nguyễn Trọng Nhân</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-box">
+                <label for="name">Ngày <span class="red-text">*</span></label>
+                <div class="form-box-text">
+                  <input
+                    class="form-text"
+                    type="text"
+                    required
+                    placeholder="Chọn ngày mong muốn (VD: 18/12/2025)"
+                  />
+                </div>
+              </div>
+              <div class="form-box">
+                <label for="name">Giờ <span class="red-text">*</span></label>
+                <div class="form-box-text">
+                  <input
+                    class="form-text"
+                    type="text"
+                    required
+                    placeholder="Nhập giờ mong muốn (VD: 15:30 hoặc 3:30PM)"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-form">
+            <label for="description"
+              >Mô tả <span class="red-text">*</span></label
+            >
+            <div class="bottom-form-box-text">
+              <input
+                type="text"
+                class="bottom-form-text"
+                placeholder="Hãy nhập cụ thể bài bạn muốn học..."
+              />
+            </div>
+          </div>
+          <div class="form-button">
+            <div class="button">Gửi tin nhắn ngay</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="box-information">
+          <div class="box-text-footer">
+            <div class="title-footer">THÔNG TIN CỦA WEBSITE</div>
+
+            <div class="content-footer">
+              <div class="text-footer">
+                Địa chỉ: 12 Nguyễn Văn Bảo, P. Hạnh Thông, TP. HCM
+              </div>
+
+              <div class="text-footer">Thời gian hoạt động: 7:00 - 21:00</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-contact">
+          <div class="box-text-footer">
+            <div class="title-footer">LIÊN HỆ</div>
+
+            <div class="content-footer">
+              <div class="text-footer">Hot-line: 0338760217</div>
+
+              <div class="text-footer">Email: mentora123@gmail.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-social-media">
+          <div class="box-text-footer">
+            <div class="title-footer">SOCIAL MEDIA</div>
+
+            <div class="icon-footer">
+              <img
+                src="../about-us-page/picture/facebook.svg"
+                alt="facebook"
+                class="icon"
+              />
+
+              <img
+                src="../about-us-page/picture/youtube.svg"
+                alt="youtube"
+                class="icon"
+              />
+
+              <img
+                src="../about-us-page/picture/instagram.svg"
+                alt="instagram"
+                class="icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
